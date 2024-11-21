@@ -24,7 +24,7 @@ def output_path(sub_path):
     return path
 
 gpu = '0'  # None or 0,1,2...
-dataset = 'mc_ocr_private_test'
+dataset = 'mc_ocr_train_filtered'
 # mc_ocr_train_filtered
 # mc_ocr_private_test
 # wer_20210125
