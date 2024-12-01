@@ -108,7 +108,7 @@ def rotate_image_angle(img, angle):
 
 def rotate_image_bbox_angle(img, bboxes, angle):
     def rotate_points(box):
-        box_np = np.array(box).astype(np.float)
+        box_np = np.array(box).astype(float)
         box_np = np.rint(box_np).astype(np.int32)
         # print(box_np.shape)
         box_np = box_np.reshape(-1, 2)
