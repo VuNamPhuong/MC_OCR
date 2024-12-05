@@ -2,7 +2,7 @@ import cv2, os, time
 from datetime import datetime
 from mc_ocr.utils.common import get_list_file_in_folder
 from mc_ocr.utils.visualize import viz_icdar
-from vietocr.vietocr_class import Classifier_Vietocr
+from vietocr.vietocr.vietocr_class import Classifier_Vietocr
 import numpy as np
 from mc_ocr.rotation_corrector.utils.line_angle_correction import rotate_and_crop
 from mc_ocr.config import rot_out_img_dir, rot_out_txt_dir, cls_out_viz_dir, \
