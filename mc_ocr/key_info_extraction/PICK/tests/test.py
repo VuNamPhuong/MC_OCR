@@ -16,11 +16,11 @@ from torch.utils.data.dataloader import DataLoader
 
 from mc_ocr.key_info_extraction.PICK.model.graph import GLCN
 from parse_config import ConfigParser
-import PICK.model.pick as pick_arch
+import mc_ocr.key_info_extraction.PICK.model.pick as pick_arch
 from data_utils import pick_dataset
 
-from PICK.model import resnet
-from PICK.data_utils.pick_dataset import PICKDataset, BatchCollateFn
+from mc_ocr.key_info_extraction.PICK.model import resnet
+from mc_ocr.key_info_extraction.PICK.data_utils.pick_dataset import PICKDataset, BatchCollateFn
 
 
 def test_glcn_model():
