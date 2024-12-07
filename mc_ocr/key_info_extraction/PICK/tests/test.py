@@ -14,7 +14,7 @@ import torch
 import torch.nn as nn
 from torch.utils.data.dataloader import DataLoader
 
-from PICK.model.graph import GLCN
+from mc_ocr.key_info_extraction.PICK.model.graph import GLCN
 from parse_config import ConfigParser
 import PICK.model.pick as pick_arch
 from data_utils import pick_dataset
