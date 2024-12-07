@@ -10,7 +10,7 @@ import torch.nn as nn
 from torch import Tensor
 import torch.nn.functional as F
 
-from data_utils import documents
+from mc_ocr.key_info_extraction.data_utils import documents
 
 
 class GraphLearningLayer(nn.Module):
