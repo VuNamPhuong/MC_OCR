@@ -12,7 +12,7 @@ from datetime import datetime
 import torch.distributed as dist
 
 from mc_ocr.key_info_extraction.PICK.logger.logger import setup_logging
-from utils import read_json, write_json
+from mc_ocr.key_info_extraction.PICK.utils.util import read_json, write_json
 
 
 class ConfigParser:
