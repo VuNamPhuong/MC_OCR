@@ -14,13 +14,13 @@ import torch
 import torch.nn as nn
 from torch.utils.data.dataloader import DataLoader
 
-from key_info_extraction.PICK.model.graph import GLCN
+from PICK.model.graph import GLCN
 from parse_config import ConfigParser
-import key_info_extraction.PICK.model.pick as pick_arch
+import PICK.model.pick as pick_arch
 from data_utils import pick_dataset
 
-from key_info_extraction.PICK.model import resnet
-from key_info_extraction.PICK.data_utils.pick_dataset import PICKDataset, BatchCollateFn
+from PICK.model import resnet
+from PICK.data_utils.pick_dataset import PICKDataset, BatchCollateFn
 
 
 def test_glcn_model():
