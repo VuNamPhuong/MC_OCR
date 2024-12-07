@@ -11,7 +11,7 @@ from datetime import datetime
 
 import torch.distributed as dist
 
-from logger import setup_logging
+from mc_ocr.key_info_extraction.PICK.logger.logger import setup_logging
 from utils import read_json, write_json
 
 
