@@ -42,7 +42,7 @@ filtered_csv = full_path('data/mcocr_train_df_filtered.csv', file=True)
 
 # text detector
 det_model_dir = full_path('text_detector/PaddleOCR/inference/ch_ppocr_server_v2.0_det_infer')
-det_visualize = True
+det_visualize = False
 det_db_thresh = 0.3
 det_db_box_thresh = 0.3
 det_out_viz_dir = output_path('text_detector/{}/viz_imgs'.format(dataset))
@@ -50,7 +50,7 @@ det_out_txt_dir = output_path('text_detector/{}/txt'.format(dataset))
 
 # rotation corrector
 rot_drop_thresh = [.5, 2]
-rot_visualize = True
+rot_visualize = False
 rot_model_path = full_path('rotation_corrector/weights/mobilenetv3-Epoch-487-Loss-0.03-Acc-0.99.pth', file=True)
 rot_out_img_dir = output_path('rotation_corrector/{}/imgs'.format(dataset))
 rot_out_txt_dir = output_path('rotation_corrector/{}/txt'.format(dataset))
@@ -58,7 +58,7 @@ rot_out_viz_dir = output_path('rotation_corrector/{}/viz_imgs'.format(dataset))
 rotate_filtered_csv = full_path('data/mcocr_train_df_rotate_filtered.csv', file=True)
 
 # text classifier (OCR)
-cls_visualize = True
+cls_visualize = False
 cls_ocr_thres = 0.65
 cls_model_path = full_path('text_classifier/vietocr/vietocr/weights/vgg19_bn_seq2seq.pth', file=True)
 cls_base_config_path = full_path('text_classifier/vietocr/config/base.yml', file=True)
