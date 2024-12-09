@@ -2,8 +2,8 @@ from PIL import Image
 import os, time, cv2
 from mc_ocr.utils.common import get_list_file_in_dir_and_subdirs
 
-from vietocr.vietocr.tool.predictor import Predictor
-from vietocr.vietocr.tool.config import Cfg
+from mc_ocr.text_classifier.vietocr.vietocr.tool.predictor import Predictor
+from mc_ocr.text_classifier.vietocr.vietocr.tool.config import Cfg
 from mc_ocr.config import cls_base_config_path, cls_config_path, cls_model_path
 
 debug = False
