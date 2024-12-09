@@ -2,7 +2,7 @@ import cv2, os, time, sys
 from datetime import datetime
 from mc_ocr.utils.common import get_list_file_in_folder
 from mc_ocr.utils.visualize import viz_icdar
-from mc_ocr.text_classifier.vietocr.vietocr.vietocr_class import Classifier_Vietocr
+from vietocr.vietocr.vietocr_class import Classifier_Vietocr
 from mc_ocr.rotation_corrector.utils.utils import rotate_image_bbox_angle
 from mc_ocr.rotation_corrector.filter import drop_box, get_mean_horizontal_angle, filter_90_box
 
