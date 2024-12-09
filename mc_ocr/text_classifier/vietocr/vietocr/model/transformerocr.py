@@ -1,7 +1,7 @@
-from vietocr.vietocr.model.backbone.cnn import CNN
-from vietocr.vietocr.model.seqmodel.transformer import LanguageTransformer
-from vietocr.vietocr.model.seqmodel.seq2seq import Seq2Seq
-from vietocr.vietocr.model.seqmodel.convseq2seq import ConvSeq2Seq
+from mc_ocr.text_classifier.vietocr.vietocr.model.backbone.cnn import CNN
+from mc_ocr.text_classifier.vietocr.vietocr.model.seqmodel.transformer import LanguageTransformer
+from mc_ocr.text_classifier.vietocr.vietocr.model.seqmodel.seq2seq import Seq2Seq
+from mc_ocr.text_classifier.vietocr.vietocr.model.seqmodel.convseq2seq import ConvSeq2Seq
 from torch import nn
 
 class VietOCR(nn.Module):
