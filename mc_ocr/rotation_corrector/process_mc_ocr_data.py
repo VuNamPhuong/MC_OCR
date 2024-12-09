@@ -1,6 +1,6 @@
 import cv2, os, time, sys
 from datetime import datetime
-from classifier_crnn.prepare_crnn_data import get_list_file_in_folder
+from mc_ocr.utils.common import get_list_file_in_folder
 from mc_ocr.utils.visualize import viz_icdar
 from vietocr.vietocr_class import Classifier_Vietocr
 from mc_ocr.rotation_corrector.utils.utils import rotate_image_bbox_angle
